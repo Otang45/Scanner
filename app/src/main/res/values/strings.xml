@@ -1,0 +1,79 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Scanner</string>
+    <string name="custom_seekbar_value" translatable="false"><xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="app_version">Version: 1.0</string>
+    <string name="about">About</string>
+    <string name="settings">Settings</string>
+    <string name="from_gallery">From Gallery</string>
+    <string name="scan">Scan</string>
+    <string name="create">Create</string>
+    <string name="unknown">Unknown</string>
+    <string name="metadata">Metadata</string>
+    <string name="time">Time</string>
+    <string name="type">Type</string>
+    <string name="format">Format</string>
+    <string name="result">Result</string>
+    <string name="copy" tools:ignore="PrivateResource">Copy</string>
+    <string name="share">Share</string>
+    <string name="open">Open</string>
+    <string name="save">Save</string>
+    <string name="content">Content</string>
+    <string name="version">Version</string>
+    <string name="developer">Developer</string>
+    <string name="app">App</string>
+    <string name="otang" translatable="false">Otang45</string>
+    <string name="version_code" translatable="false">1.0</string>
+    <string name="app_info">Scanner is a mobile application created for scan and create QR Code or Barcode using ZXing library.</string>
+    <string name="github" translatable="false">Github</string>
+    <string name="create_dialog_info">Create QRCode or Barcode</string>
+    <string name="qrcode" translatable="false">QRCode</string>
+    <string name="barcode" translatable="false">Barcode</string>
+    <string name="save_again">Save again</string>
+    <string name="permission_required">Permission required!</string>
+    <string name="info">Information</string>
+    <string name="need_permission_dialog_info">App need camera access for scan QR Code. Please grant camera permission!</string>
+    <string name="oke">OK</string>
+    <string name="custom_logo_saved">Custom logo saved</string>
+    <string name="github_url" translatable="false">https://github.com/Otang45/Scanner</string>
+    <string name="content_cannot_empty">Content cannot empty</string>
+    <string name="copied">Copied</string>
+    <string name="image_saved">Image saved</string>
+    <string name="circle">Circle</string>
+    <string name="square">Square</string>
+    <string name="cat_decoder">Decoder</string>
+    <string name="cat_scanner_color">Scanner Color</string>
+    <string name="cat_scanner_style">Scanner Style</string>
+    <string name="cat_encoder">Encoder</string>
+    <string name="cat_logo_style">Logo Style</string>
+    <string name="cat_text">Text</string>
+    <string name="cat_result_style">Result Style</string>
+    <string name="pref_frame_color">Frame color</string>
+    <string name="pref_frame_color_summary">Viewfinder frame color</string>
+    <string name="pref_mask_color">Mask color</string>
+    <string name="pref_mask_color_summary">Viewfinder mask color</string>
+    <string name="pref_point_color">Point color</string>
+    <string name="pref_point_color_summary">Result point color</string>
+    <string name="pref_corner_size">Corner size</string>
+    <string name="value">Value</string>
+    <string name="pref_corner_radius">Corner radius</string>
+    <string name="pref_stroke_width">Stroke width</string>
+    <string name="pref_add_logo">Add logo (QR Code)</string>
+    <string name="pref_add_logo_summary">Insert custom logo in qr code</string>
+    <string name="pref_shape">Shape</string>
+    <string name="pref_custom_logo">Custom logo</string>
+    <string name="pref_custom_logo_summary">Use custom logo in qr code</string>
+    <string name="pref_logo">Logo</string>
+    <string name="pref_logo_summary">Better use a transparent logo</string>
+    <string name="pref_add_text">Add text (Barcode)</string>
+    <string name="pref_add_text_summary">Insert text in bottom barcode</string>
+    <string name="pref_margin">Margin (QR Code)</string>
+    <string name="pref_margin_summary">Side space size qr code</string>
+    <string name="pref_background_color">Background color</string>
+    <string name="pref_background_color_summary">Should be a brighter color</string>
+    <string name="pref_foreground_color">Foreground color</string>
+    <string name="pref_foreground_color_summary">Must be a darker color</string>
+    <string name="preference">Preference</string>
+</resources>
