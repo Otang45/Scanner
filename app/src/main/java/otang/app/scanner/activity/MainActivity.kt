@@ -2,8 +2,6 @@ package otang.app.scanner.activity
 
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.os.Build
-import android.os.Environment
 import android.view.View
 import android.widget.Toast
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -60,24 +58,6 @@ class MainActivity : BaseActivity<MainActivityBinding>() {
     @Suppress("UNUSED_PARAMETER")
     fun aboutDialog(view: View) {
         AboutDialog().show(supportFragmentManager, AboutDialog.TAG)
-    }
-
-    @Deprecated("Deprecated in Java")
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == SaveUtils.REQ_STORAGE_CODE) {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
-                if (Environment.isExternalStorageManager()) {
-                    Toast.makeText(this, getString(R.string.save_again), Toast.LENGTH_SHORT).show()
-                } else {
-                    Toast.makeText(
-                        this,
-                        getString(R.string.permission_required),
-                        Toast.LENGTH_SHORT
-                    ).show()
-                }
-            }
-        }
     }
 
     override fun onRequestPermissionsResult(
